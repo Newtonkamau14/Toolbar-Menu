@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Home"
+        android:id="@+id/home"
+        android:icon="@drawable/ic_baseline_home"
+        app:showAsAction="always"
+        />
+    <item
+        android:title="About"
+        android:id="@+id/about"
+        android:icon="@drawable/ic_baseline_about"
+        app:showAsAction="always"
+        />
+    <item
+        android:title="Rewards"
+        android:id="@+id/Rewards"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:title="Contact"
+        android:id="@+id/contact"
+        app:showAsAction="never"
+        />
+    <item android:title="More Settings">
+      <menu>
+          <item
+              android:title=" App Settings"
+              android:id="@+id/appSettings"
+              app:showAsAction="never"
+              />
+          <item
+              android:title="Map Settings"
+              android:id="@+id/mapSettings"
+              app:showAsAction="never"
+              />
+      </menu>
+    </item>
+</menu>
